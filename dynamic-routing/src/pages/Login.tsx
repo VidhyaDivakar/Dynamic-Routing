@@ -11,7 +11,7 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div className="page">
       <h2>Login Page</h2>
       <button onClick={handleLogin}>Log In</button>
     </div>

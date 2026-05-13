@@ -3,9 +3,9 @@ import { posts } from "../lib/posts";
 
 export default function BlogIndex() {
   return (
-    <div>
+    <div className="container">
       <h2>Blog</h2>
-
+<div className="blog-list">
       <ul>
         {posts.map((post) => (
           <li key={post.id}>
@@ -13,6 +13,7 @@ export default function BlogIndex() {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 }
